@@ -1,0 +1,18 @@
+_book
+node_modules
+# Ignore target folders of all Maven projects
+**/target/
+# Ignore internal IntelliJ files
+.idea
+**/*.iml
+# Ignore Eclipse settings
+.settings
+.classpath
+.project
+
+# Misc
+/build/
+.gradle
+/bin/
+*.log*
+*gvcf.gz
